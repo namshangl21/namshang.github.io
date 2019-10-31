@@ -1,81 +1,49 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
-body {
-  margin: 0;
-  background: white;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 17px;
-  font-weight: 400;
+body{
+	margin: 0;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 20px;
+	font-weight: 580;
 }
 
-header {
-  background: #D3EDED;
+nav a{
+	font-size: 25px;
+	color: black;
+	float: left;
 }
 
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+nav a:hover{
+	color: pink;
 }
 
-nav a {
-  text-decoration:none;
-  color: black;
+a{
+	 text-decoration:none;
+	 color: teal;
 }
 
-nav li {
-  display: inline-block;
-  float: none;
-  margin-left: 5px;
-  padding-top: 0px;
+a:hover{
+	color: grey;
 }
 
-nav a:hover {
-  color: grey;
-  }
-
-nav a::before {
-  content: '';
-  display: block;
-  height: 1.5px;
-  background-color: black;
-  top: 0;
-  width: 0%;
-
-  transition: all ease-in-out 250ms;
-}
-
-nav a:hover::before {
+.bannerimage{
+  position: relative;
   width: 100%;
-}
-
-ul {
-  text-align: center;
-  color: white;
-}
-
-.banner > .bannerimage{
-  width: 100%;
-  height:280px;
+  margin: 10px 0px 0px 0px;
   display: block;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
-.aboutme {
-  color: #3D3D3D;
-  font-weight: 700;
-  margin-left: 300px;
-  margin-top: 45px;
+.container{
+	width: 50%;
+	margin: auto;
+	min-width: 400px;
 }
 
-.aboutmeinfo {
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-bottom: 100px;
+.box-1 h1{
+	font-style: strong;
+	color:grey;
 }
-
- .footer {
-  padding: 10px 10px 0px 10px; 
-  bottom: 0; 
-  width: 100%; 
-  height: 40px; 
-  background: grey; 
-} 
