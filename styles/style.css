@@ -65,20 +65,19 @@ a{
 }
 
 .box-1 a{
-  color: teal;
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 20px;
-  font-weight: 580;
+  color: teal ;
+  font-family: 'PT Serif', serif;
+  font-size: 19px;
 }
 
 .box-1 a:hover{
-  color: purple;
+  color: #156060;
 }
 
 .container h1{
   font-size: 40px;
   font-style: strong;
   color:grey;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 10px;
 }
