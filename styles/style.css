@@ -1,14 +1,13 @@
 body{
   margin: 0;
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 20px;
-  font-weight: 580;
+  font-family: 'PT Serif', serif;
+  font-size: 19px;
 }
 
 nav a{
   position: relative;
   font-family: 'Josefin Sans', sans-serif;
-  color: white;
+  color: #CCF0F5;
 }
 
 .bannerimage{
@@ -26,14 +25,14 @@ nav a{
 
 .nav-name{
   position: absolute;
-  top: 5px;
+  top: 7px;
   left: 15px;
   font-size: 23px;
 }
 
 .nav-list{
   position: absolute;
-  top:7px;
+  top:9px;
   right: 15px;
   font-size: 18px;
 }
@@ -48,13 +47,38 @@ nav li{
 }
 
 nav a:hover{
-  color: #CCF0F5;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  color: #A7ECF5;
+  -webkit-transition: all 0.33s ease-in-out;
+  -moz-transition: all 0.33s ease-in-out;
+  -o-transition: all 0.33s ease-in-out;
+  transition: all 0.33s ease-in-out;
 }
 
 a{
    text-decoration:none;
+}
+
+.container{
+  width: 50%;
+  margin: auto;
+  min-width: 400px;
+}
+
+.box-1 a{
+  color: teal;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+  font-weight: 580;
+}
+
+.box-1 a:hover{
+  color: purple;
+}
+
+.container h1{
+  font-size: 40px;
+  font-style: strong;
+  color:grey;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
