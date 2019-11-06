@@ -8,7 +8,7 @@ body{
   background-size: 1300px 350px;
 }
 
-nav a{
+.nav-bar a{
   position: relative;
   font-family: 'Josefin Sans', sans-serif;
   color: #CCF0F5;
@@ -25,6 +25,7 @@ nav a{
   -moz-user-select: none;
   -webkit-user-drag: none;
   padding-top: 0px;
+  background-size: 100% 100%;
 }
 
 .nav-icon{
@@ -42,6 +43,10 @@ nav a{
   border-style: solid;
   border-width: 5px;
   border-color: teal;
+  user-drag: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  padding-top: 0px;	
 }
 
 .nav-name{
@@ -67,7 +72,7 @@ nav li{
   display: inline-block;
 }
 
-nav a:hover{
+.nav-bar a:hover{
   color: #A7ECF5;
   -webkit-transition: all 0.33s ease-in-out;
   -moz-transition: all 0.33s ease-in-out;
@@ -87,11 +92,40 @@ nav a:hover{
   margin-bottom: 0px;
 }
 
+.banner-name a{
+  color: white;
+}
+
 .banner-name .below-name{
   color: #CCF0F5;
   font-size: 35px;
   margin-top: 0px;
   padding-top: 0px;
+}
+
+.social-icons{
+	display: inline-block;
+	position: absolute;
+	font-size: 10px;
+	top: 290px;
+	right: 15px;
+}
+
+.social-icons i {
+  padding: 12px;
+  transition: all ease-in-out 150ms;
+}
+
+.social-icons a:nth-child(1) {
+  color: #dd4b39;
+}
+
+.social-icons a:nth-child(2) {
+  color: #4867AA;
+}
+
+.social-icons a:nth-child(3) {
+  color: white;
 }
 
 a{
@@ -102,6 +136,7 @@ a{
   width: 50%;
   margin: auto;
   min-width: 400px;
+  margin-bottom: 80px;
 }
 
 .box-1 a{
@@ -114,12 +149,16 @@ a{
   color: #156060;
 }
 
-.container h1{
-  font-size: 40px;
-  font-style: strong;
+.box-1 p{
+	line-height: 25px;
+	font-weight: lighter;
+}
+
+.box-1 h1{
+  font-size: 35px;
   color:grey;
-  margin-top: 70px;
-  margin-bottom: 10px;
+  margin-top: 65px;
+  margin-bottom: 20px;
 }
 
 footer {
