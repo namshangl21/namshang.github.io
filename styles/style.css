@@ -46,7 +46,9 @@ body{
   user-drag: none;
   -moz-user-select: none;
   -webkit-user-drag: none;
-  padding-top: 0px;	
+  padding-top: 0px;
+   left: 15px;
+  font-size: 23px;
 }
 
 .nav-name{
