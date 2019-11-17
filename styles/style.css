@@ -93,17 +93,6 @@ nav li{
   margin-bottom: 0px;
 }
 
-.banner-name a{
-  color: white;
-}
-
-.banner-name .below-name{
-  color: #CCF0F5;
-  font-size: 35px;
-  margin-top: 0px;
-  padding-top: 0px;
-}
-
 .social-icons{
 	display: inline-block;
 	position: absolute;
