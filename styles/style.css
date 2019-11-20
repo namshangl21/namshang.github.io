@@ -115,8 +115,6 @@ nav li{
 .social-icons i {
   padding: 12px;
   transition: all ease-in-out 150ms;
-  margin-top: 0px;
-  padding-top: 0px;
 }
 
 .social-icons a:nth-child(1) {
