@@ -91,6 +91,8 @@ nav li{
   font-size: 55px;
   margin-top: 85px;
   margin-bottom: 0px;
+  margin-left: 30px;
+  display: inline-block;
 }
 
 .banner-name a{
@@ -115,6 +117,8 @@ nav li{
 .social-icons i {
   padding: 12px;
   transition: all ease-in-out 150ms;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 .social-icons a:nth-child(1) {
