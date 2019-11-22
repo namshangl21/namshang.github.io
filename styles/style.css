@@ -105,16 +105,18 @@ nav li{
 }
 
 .social-icons{
-	display: inline-block;
-	position: absolute;
-	font-size: 10px;
-	top: 290px;
-	right: 15px;
+   display: inline-block;
+   position: absolute;
+   font-size: 10px;
+   top: 290px;
+   right: 15px;
 }
 
 .social-icons i {
   padding: 12px;
   transition: all ease-in-out 150ms;
+  display: inline-block;
+   position: absolute;
 }
 
 .social-icons a:nth-child(1) {
