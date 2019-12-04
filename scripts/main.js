@@ -26,7 +26,3 @@ if(!localStorage.getItem('name')) {
   myHeading.textContent = 'Manchester United appreciates you, ' + storedName;
 }
 
-myButton.onclick = function() {
-  setUserName();
-}
-*/
